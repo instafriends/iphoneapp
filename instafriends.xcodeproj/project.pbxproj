@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3061EC615DD9CE300D1D4FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AF814115DD560400B1A8C8 /* Default@2x.png */; };
+		B3061EC715DD9CE600D1D4FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AF813F15DD55FF00B1A8C8 /* Default.png */; };
+		B33D4B8615D2AAA000A822A2 /* InstafriendsAuthWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D4B8515D2AA9F00A822A2 /* InstafriendsAuthWebView.m */; };
+		B33D4B8D15D2B2E900A822A2 /* InstafriendsUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B33D4B8C15D2B2E900A822A2 /* InstafriendsUserDefaults.m */; };
+		B34612D915D9C3F800889C61 /* Instagramer.m in Sources */ = {isa = PBXBuildFile; fileRef = B34612D815D9C3F800889C61 /* Instagramer.m */; };
+		B346FCD115D5962300C3ED04 /* InstafriendsMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B346FCD015D5962300C3ED04 /* InstafriendsMoreViewController.m */; };
+		B34F432A161DD5ED0023BB02 /* InstafriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F4329161DD5ED0023BB02 /* InstafriendsCell.m */; };
+		B359A36F15DC24A300FD3997 /* iconUpdate.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A36D15DC24A300FD3997 /* iconUpdate.png */; };
+		B359A37015DC24A300FD3997 /* iconUpdate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A36E15DC24A300FD3997 /* iconUpdate@2x.png */; };
+		B359A37415DC325E00FD3997 /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37215DC325E00FD3997 /* cellBackground.png */; };
+		B359A37515DC325E00FD3997 /* cellBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37315DC325E00FD3997 /* cellBackground@2x.png */; };
+		B359A37815DC399300FD3997 /* follow.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37615DC399300FD3997 /* follow.png */; };
+		B359A37915DC399300FD3997 /* follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37715DC399300FD3997 /* follow@2x.png */; };
+		B359A37C15DC4D4500FD3997 /* homeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37A15DC4D4500FD3997 /* homeBackground.png */; };
+		B359A37D15DC4D4500FD3997 /* homeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37B15DC4D4500FD3997 /* homeBackground@2x.png */; };
+		B359A38015DC4D7C00FD3997 /* buttonBack.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37E15DC4D7C00FD3997 /* buttonBack.png */; };
+		B359A38115DC4D7C00FD3997 /* buttonBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A37F15DC4D7C00FD3997 /* buttonBack@2x.png */; };
+		B359A38415DC854200FD3997 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A38215DC854200FD3997 /* twitter.png */; };
+		B359A38515DC854200FD3997 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B359A38315DC854200FD3997 /* twitter@2x.png */; };
+		B366DB3E15DD0811000BFF6D /* IsThereInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = B34612D515D9C10200889C61 /* IsThereInternet.m */; };
+		B366DB4115DD08C4000BFF6D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B366DB4015DD08AF000BFF6D /* Reachability.m */; };
+		B366DB4315DD0980000BFF6D /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = B366DB4215DD0980000BFF6D /* info.png */; };
+		B366DB4515DD09A5000BFF6D /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B366DB4415DD09A5000BFF6D /* info@2x.png */; };
+		B373AD2E15C8574800EDD48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B373AD2D15C8574800EDD48C /* UIKit.framework */; };
+		B373AD3015C8574800EDD48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B373AD2F15C8574800EDD48C /* Foundation.framework */; };
+		B373AD3215C8574800EDD48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B373AD3115C8574800EDD48C /* CoreGraphics.framework */; };
+		B373AD3815C8574800EDD48C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B373AD3615C8574800EDD48C /* InfoPlist.strings */; };
+		B373AD3A15C8574800EDD48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B373AD3915C8574800EDD48C /* main.m */; };
+		B373AD3E15C8574800EDD48C /* InstafriendsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B373AD3D15C8574800EDD48C /* InstafriendsAppDelegate.m */; };
+		B373AD4115C8574800EDD48C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B373AD3F15C8574800EDD48C /* MainStoryboard.storyboard */; };
+		B373AD4C15C8583800EDD48C /* InstafriendsInstagramFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B373AD4B15C8583800EDD48C /* InstafriendsInstagramFetcher.m */; };
+		B375244315DBD36300B608D7 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = B375244115DBD36300B608D7 /* top.png */; };
+		B375244415DBD36300B608D7 /* top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B375244215DBD36300B608D7 /* top@2x.png */; };
+		B375244815DBD41B00B608D7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B375244615DBD41B00B608D7 /* background.png */; };
+		B375244915DBD41B00B608D7 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B375244715DBD41B00B608D7 /* background@2x.png */; };
+		B375244C15DBD52300B608D7 /* dashboardMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = B375244A15DBD52300B608D7 /* dashboardMenu.png */; };
+		B375244D15DBD52300B608D7 /* dashboardMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B375244B15DBD52300B608D7 /* dashboardMenu@2x.png */; };
+		B386F8C715D14DA200EDB2DC /* InstafriendsCoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386F8C615D14DA200EDB2DC /* InstafriendsCoreTableViewController.m */; };
+		B386F8CC15D1500A00EDB2DC /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386F8C315D14C9100EDB2DC /* CoreDataTableViewController.m */; };
+		B390FCCF15C9B49500A37E4B /* InstafriendsInstagramerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCCE15C9B49500A37E4B /* InstafriendsInstagramerCell.m */; };
+		B390FCD515C9B5FF00A37E4B /* InstafriendsInstagramerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B390FCD415C9B5FF00A37E4B /* InstafriendsInstagramerCell.xib */; };
+		B390FCFE15C9C37A00A37E4B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B390FCFD15C9C37A00A37E4B /* CoreImage.framework */; };
+		B390FD0015C9C39300A37E4B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B390FCFF15C9C39300A37E4B /* ImageIO.framework */; };
+		B390FD0415C9C42100A37E4B /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B390FD0215C9C42100A37E4B /* placeholder.png */; };
+		B390FD0515C9C42100A37E4B /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B390FD0315C9C42100A37E4B /* placeholder@2x.png */; };
+		B390FD0615C9C44000A37E4B /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCE415C9BED100A37E4B /* SDImageCache.m */; };
+		B390FD0715C9C44000A37E4B /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCE815C9BED100A37E4B /* SDWebImageDecoder.m */; };
+		B390FD0815C9C44000A37E4B /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCEA15C9BED100A37E4B /* SDWebImageDownloader.m */; };
+		B390FD0915C9C44000A37E4B /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCED15C9BED100A37E4B /* SDWebImageManager.m */; };
+		B390FD0A15C9C44000A37E4B /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCF015C9BED100A37E4B /* SDWebImagePrefetcher.m */; };
+		B390FD0B15C9C44000A37E4B /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCF215C9BED100A37E4B /* UIButton+WebCache.m */; };
+		B390FD0C15C9C44000A37E4B /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B390FCF415C9BED100A37E4B /* UIImageView+WebCache.m */; };
+		B3A44D3F15D98B40002FF2B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A44D3E15D98B40002FF2B7 /* CFNetwork.framework */; };
+		B3A44D4115D98B55002FF2B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A44D4015D98B55002FF2B7 /* SystemConfiguration.framework */; };
+		B3A44D4315D98B5F002FF2B7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A44D4215D98B5F002FF2B7 /* MobileCoreServices.framework */; };
+		B3A44D4515D98B7F002FF2B7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A44D4415D98B7F002FF2B7 /* libz.dylib */; };
+		B3A8C1F115D0307000E61B55 /* unfollow.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8C1ED15D0307000E61B55 /* unfollow.png */; };
+		B3A8C1F215D0307000E61B55 /* unfollow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8C1EE15D0307000E61B55 /* unfollow@2x.png */; };
+		B3AF812F15DD0CF500B1A8C8 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AF812D15DD0CF500B1A8C8 /* close.png */; };
+		B3AF813015DD0CF500B1A8C8 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AF812E15DD0CF500B1A8C8 /* close@2x.png */; };
+		B3AF813C15DD55CE00B1A8C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AF813B15DD55CD00B1A8C8 /* Icon.png */; };
+		B3AF813E15DD55D400B1A8C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AF813D15DD55D400B1A8C8 /* Icon@2x.png */; };
+		B3B52C5F15D2F3B100BBFC43 /* InstafriendsDashbordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B52C5E15D2F3B100BBFC43 /* InstafriendsDashbordViewController.m */; };
+		B3C8021A15DBE2AA00C912DB /* dashboardPhotoFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C8021815DBE2AA00C912DB /* dashboardPhotoFrame.png */; };
+		B3C8021B15DBE2AA00C912DB /* dashboardPhotoFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C8021915DBE2AA00C912DB /* dashboardPhotoFrame@2x.png */; };
+		B3E1AC1815C8923C007983AD /* Instafriends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3E1AC1615C8923C007983AD /* Instafriends.xcdatamodeld */; };
+		B3E1AC2C15C8ADE1007983AD /* Instagramer+DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E1AC2B15C8ADE1007983AD /* Instagramer+DataBase.m */; };
+		B3E1AC2E15C9421F007983AD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E1AC2D15C9421F007983AD /* CoreData.framework */; };
+		B3E1AC3115C946BB007983AD /* InstafriendsBrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E1AC3015C946BB007983AD /* InstafriendsBrainViewController.m */; };
+		B3E1AC3415C9474C007983AD /* InstafriendsIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E1AC3315C9474C007983AD /* InstafriendsIntroViewController.m */; };
+		B3EAA7F8161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA7F7161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.m */; };
+		B3EAA7FE161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA7FD161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.m */; };
+		B3F8FB22161E7AAB007C7D0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F8FB21161E7AAB007C7D0D /* Default-568h@2x.png */; };
+		B3FA8D9A15DB04C0009D2EF6 /* buttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FA8D9815DB04BF009D2EF6 /* buttonNormal.png */; };
+		B3FA8D9B15DB04C0009D2EF6 /* buttonNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FA8D9915DB04C0009D2EF6 /* buttonNormal@2x.png */; };
+		B3FA8D9E15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA8D9D15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B33D4B8415D2AA9F00A822A2 /* InstafriendsAuthWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsAuthWebView.h; sourceTree = "<group>"; };
+		B33D4B8515D2AA9F00A822A2 /* InstafriendsAuthWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsAuthWebView.m; sourceTree = "<group>"; };
+		B33D4B8B15D2B2E900A822A2 /* InstafriendsUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsUserDefaults.h; sourceTree = "<group>"; };
+		B33D4B8C15D2B2E900A822A2 /* InstafriendsUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsUserDefaults.m; sourceTree = "<group>"; };
+		B34612D415D9C10200889C61 /* IsThereInternet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IsThereInternet.h; path = ../../../oldversion/instafriends/instafriends/instafriends/IsThereInternet.h; sourceTree = "<group>"; };
+		B34612D515D9C10200889C61 /* IsThereInternet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IsThereInternet.m; path = ../../../oldversion/instafriends/instafriends/instafriends/IsThereInternet.m; sourceTree = "<group>"; };
+		B34612D715D9C3F800889C61 /* Instagramer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instagramer.h; sourceTree = "<group>"; };
+		B34612D815D9C3F800889C61 /* Instagramer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instagramer.m; sourceTree = "<group>"; };
+		B346FCCF15D5962300C3ED04 /* InstafriendsMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstafriendsMoreViewController.h; path = ../InstafriendsMoreViewController.h; sourceTree = "<group>"; };
+		B346FCD015D5962300C3ED04 /* InstafriendsMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstafriendsMoreViewController.m; path = ../InstafriendsMoreViewController.m; sourceTree = "<group>"; };
+		B34F4328161DD5ED0023BB02 /* InstafriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsCell.h; sourceTree = "<group>"; };
+		B34F4329161DD5ED0023BB02 /* InstafriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsCell.m; sourceTree = "<group>"; };
+		B359A36D15DC24A300FD3997 /* iconUpdate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconUpdate.png; sourceTree = "<group>"; };
+		B359A36E15DC24A300FD3997 /* iconUpdate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconUpdate@2x.png"; sourceTree = "<group>"; };
+		B359A37215DC325E00FD3997 /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackground.png; sourceTree = "<group>"; };
+		B359A37315DC325E00FD3997 /* cellBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellBackground@2x.png"; sourceTree = "<group>"; };
+		B359A37615DC399300FD3997 /* follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = follow.png; sourceTree = "<group>"; };
+		B359A37715DC399300FD3997 /* follow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "follow@2x.png"; sourceTree = "<group>"; };
+		B359A37A15DC4D4500FD3997 /* homeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeBackground.png; sourceTree = "<group>"; };
+		B359A37B15DC4D4500FD3997 /* homeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeBackground@2x.png"; sourceTree = "<group>"; };
+		B359A37E15DC4D7C00FD3997 /* buttonBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBack.png; sourceTree = "<group>"; };
+		B359A37F15DC4D7C00FD3997 /* buttonBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBack@2x.png"; sourceTree = "<group>"; };
+		B359A38215DC854200FD3997 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		B359A38315DC854200FD3997 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		B366DB3F15DD08AF000BFF6D /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B366DB4015DD08AF000BFF6D /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B366DB4215DD0980000BFF6D /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		B366DB4415DD09A5000BFF6D /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		B373AD2915C8574800EDD48C /* Instafriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B373AD2D15C8574800EDD48C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B373AD2F15C8574800EDD48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B373AD3115C8574800EDD48C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B373AD3515C8574800EDD48C /* instafriends-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instafriends-Info.plist"; sourceTree = "<group>"; };
+		B373AD3715C8574800EDD48C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B373AD3915C8574800EDD48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B373AD3B15C8574800EDD48C /* instafriends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instafriends-Prefix.pch"; sourceTree = "<group>"; };
+		B373AD3C15C8574800EDD48C /* InstafriendsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstafriendsAppDelegate.h; sourceTree = "<group>"; };
+		B373AD3D15C8574800EDD48C /* InstafriendsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstafriendsAppDelegate.m; sourceTree = "<group>"; };
+		B373AD4015C8574800EDD48C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B373AD4A15C8583800EDD48C /* InstafriendsInstagramFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsInstagramFetcher.h; sourceTree = "<group>"; };
+		B373AD4B15C8583800EDD48C /* InstafriendsInstagramFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsInstagramFetcher.m; sourceTree = "<group>"; };
+		B375244115DBD36300B608D7 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		B375244215DBD36300B608D7 /* top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top@2x.png"; sourceTree = "<group>"; };
+		B375244615DBD41B00B608D7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B375244715DBD41B00B608D7 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		B375244A15DBD52300B608D7 /* dashboardMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboardMenu.png; sourceTree = "<group>"; };
+		B375244B15DBD52300B608D7 /* dashboardMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboardMenu@2x.png"; sourceTree = "<group>"; };
+		B386F8C215D14C9100EDB2DC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		B386F8C315D14C9100EDB2DC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		B386F8C515D14DA200EDB2DC /* InstafriendsCoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsCoreTableViewController.h; sourceTree = "<group>"; };
+		B386F8C615D14DA200EDB2DC /* InstafriendsCoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsCoreTableViewController.m; sourceTree = "<group>"; };
+		B390FCCD15C9B49500A37E4B /* InstafriendsInstagramerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsInstagramerCell.h; sourceTree = "<group>"; };
+		B390FCCE15C9B49500A37E4B /* InstafriendsInstagramerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsInstagramerCell.m; sourceTree = "<group>"; };
+		B390FCD415C9B5FF00A37E4B /* InstafriendsInstagramerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstafriendsInstagramerCell.xib; sourceTree = "<group>"; };
+		B390FCE315C9BED100A37E4B /* SDImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		B390FCE415C9BED100A37E4B /* SDImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		B390FCE515C9BED100A37E4B /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		B390FCE615C9BED100A37E4B /* SDWebImageCompat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		B390FCE715C9BED100A37E4B /* SDWebImageDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		B390FCE815C9BED100A37E4B /* SDWebImageDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		B390FCE915C9BED100A37E4B /* SDWebImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		B390FCEA15C9BED100A37E4B /* SDWebImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		B390FCEB15C9BED100A37E4B /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		B390FCEC15C9BED100A37E4B /* SDWebImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		B390FCED15C9BED100A37E4B /* SDWebImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		B390FCEE15C9BED100A37E4B /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		B390FCEF15C9BED100A37E4B /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		B390FCF015C9BED100A37E4B /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		B390FCF115C9BED100A37E4B /* UIButton+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		B390FCF215C9BED100A37E4B /* UIButton+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		B390FCF315C9BED100A37E4B /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		B390FCF415C9BED100A37E4B /* UIImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		B390FCFD15C9C37A00A37E4B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B390FCFF15C9C39300A37E4B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B390FD0215C9C42100A37E4B /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		B390FD0315C9C42100A37E4B /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		B3A44D3E15D98B40002FF2B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3A44D4015D98B55002FF2B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3A44D4215D98B5F002FF2B7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B3A44D4415D98B7F002FF2B7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B3A8C1ED15D0307000E61B55 /* unfollow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unfollow.png; sourceTree = "<group>"; };
+		B3A8C1EE15D0307000E61B55 /* unfollow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unfollow@2x.png"; sourceTree = "<group>"; };
+		B3AF812D15DD0CF500B1A8C8 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		B3AF812E15DD0CF500B1A8C8 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		B3AF813B15DD55CD00B1A8C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		B3AF813D15DD55D400B1A8C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		B3AF813F15DD55FF00B1A8C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B3AF814115DD560400B1A8C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		B3B52C5D15D2F3B100BBFC43 /* InstafriendsDashbordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsDashbordViewController.h; sourceTree = "<group>"; };
+		B3B52C5E15D2F3B100BBFC43 /* InstafriendsDashbordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsDashbordViewController.m; sourceTree = "<group>"; };
+		B3C8021815DBE2AA00C912DB /* dashboardPhotoFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboardPhotoFrame.png; sourceTree = "<group>"; };
+		B3C8021915DBE2AA00C912DB /* dashboardPhotoFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboardPhotoFrame@2x.png"; sourceTree = "<group>"; };
+		B3E1AC1715C8923C007983AD /* Instafriends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instafriends.xcdatamodel; sourceTree = "<group>"; };
+		B3E1AC2915C8AB4A007983AD /* InstafriendsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstafriendsConstants.h; sourceTree = "<group>"; };
+		B3E1AC2A15C8ADE1007983AD /* Instagramer+DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Instagramer+DataBase.h"; sourceTree = "<group>"; };
+		B3E1AC2B15C8ADE1007983AD /* Instagramer+DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Instagramer+DataBase.m"; sourceTree = "<group>"; };
+		B3E1AC2D15C9421F007983AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3E1AC2F15C946BB007983AD /* InstafriendsBrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsBrainViewController.h; sourceTree = "<group>"; };
+		B3E1AC3015C946BB007983AD /* InstafriendsBrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsBrainViewController.m; sourceTree = "<group>"; };
+		B3E1AC3215C9474C007983AD /* InstafriendsIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsIntroViewController.h; sourceTree = "<group>"; };
+		B3E1AC3315C9474C007983AD /* InstafriendsIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsIntroViewController.m; sourceTree = "<group>"; };
+		B3EAA7F6161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsDashBoardViewControllerNoDatabase.h; sourceTree = "<group>"; };
+		B3EAA7F7161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsDashBoardViewControllerNoDatabase.m; sourceTree = "<group>"; };
+		B3EAA7FC161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendInstagramersTableViewController.h; sourceTree = "<group>"; };
+		B3EAA7FD161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendInstagramersTableViewController.m; sourceTree = "<group>"; };
+		B3F8FB21161E7AAB007C7D0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3FA8D9815DB04BF009D2EF6 /* buttonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNormal.png; sourceTree = "<group>"; };
+		B3FA8D9915DB04C0009D2EF6 /* buttonNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonNormal@2x.png"; sourceTree = "<group>"; };
+		B3FA8D9C15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstafriendsNormalButtonSetup.h; sourceTree = "<group>"; };
+		B3FA8D9D15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstafriendsNormalButtonSetup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B373AD2615C8574800EDD48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A44D4515D98B7F002FF2B7 /* libz.dylib in Frameworks */,
+				B3A44D4315D98B5F002FF2B7 /* MobileCoreServices.framework in Frameworks */,
+				B3A44D4115D98B55002FF2B7 /* SystemConfiguration.framework in Frameworks */,
+				B3A44D3F15D98B40002FF2B7 /* CFNetwork.framework in Frameworks */,
+				B390FD0015C9C39300A37E4B /* ImageIO.framework in Frameworks */,
+				B390FCFE15C9C37A00A37E4B /* CoreImage.framework in Frameworks */,
+				B3E1AC2E15C9421F007983AD /* CoreData.framework in Frameworks */,
+				B373AD2E15C8574800EDD48C /* UIKit.framework in Frameworks */,
+				B373AD3015C8574800EDD48C /* Foundation.framework in Frameworks */,
+				B373AD3215C8574800EDD48C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B33D4B8215D2A1EE00A822A2 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA7FB161DBC760084AC3E /* Backup */,
+				B34F4328161DD5ED0023BB02 /* InstafriendsCell.h */,
+				B34F4329161DD5ED0023BB02 /* InstafriendsCell.m */,
+				B3EAA7FC161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.h */,
+				B3EAA7FD161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.m */,
+			);
+			name = TableViews;
+			sourceTree = "<group>";
+		};
+		B346FCD215D59FC400C3ED04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA7FA161DB8190084AC3E /* Backup */,
+				B3EAA7F6161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.h */,
+				B3EAA7F7161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.m */,
+				B3E1AC3215C9474C007983AD /* InstafriendsIntroViewController.h */,
+				B3E1AC3315C9474C007983AD /* InstafriendsIntroViewController.m */,
+				B3E1AC2F15C946BB007983AD /* InstafriendsBrainViewController.h */,
+				B3E1AC3015C946BB007983AD /* InstafriendsBrainViewController.m */,
+				B346FCCF15D5962300C3ED04 /* InstafriendsMoreViewController.h */,
+				B346FCD015D5962300C3ED04 /* InstafriendsMoreViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B346FCD315D59FE300C3ED04 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B3E1AC2915C8AB4A007983AD /* InstafriendsConstants.h */,
+				B34612D415D9C10200889C61 /* IsThereInternet.h */,
+				B34612D515D9C10200889C61 /* IsThereInternet.m */,
+				B3FA8D9C15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.h */,
+				B3FA8D9D15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		B373AD1E15C8574800EDD48C = {
+			isa = PBXGroup;
+			children = (
+				B3F8FB21161E7AAB007C7D0D /* Default-568h@2x.png */,
+				B390FD0115C9C40200A37E4B /* 3thParty */,
+				B390FCD615C9B83200A37E4B /* Resources */,
+				B373AD3415C8574800EDD48C /* Supporting Files */,
+				B373AD3315C8574800EDD48C /* instafriends */,
+				B373AD2C15C8574800EDD48C /* Frameworks */,
+				B373AD2A15C8574800EDD48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B373AD2A15C8574800EDD48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B373AD2915C8574800EDD48C /* Instafriends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B373AD2C15C8574800EDD48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A44D3E15D98B40002FF2B7 /* CFNetwork.framework */,
+				B3E1AC2D15C9421F007983AD /* CoreData.framework */,
+				B373AD3115C8574800EDD48C /* CoreGraphics.framework */,
+				B390FCFD15C9C37A00A37E4B /* CoreImage.framework */,
+				B373AD2F15C8574800EDD48C /* Foundation.framework */,
+				B390FCFF15C9C39300A37E4B /* ImageIO.framework */,
+				B3A44D4415D98B7F002FF2B7 /* libz.dylib */,
+				B3A44D4215D98B5F002FF2B7 /* MobileCoreServices.framework */,
+				B3A44D4015D98B55002FF2B7 /* SystemConfiguration.framework */,
+				B373AD2D15C8574800EDD48C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B373AD3315C8574800EDD48C /* instafriends */ = {
+			isa = PBXGroup;
+			children = (
+				B346FCD315D59FE300C3ED04 /* Support */,
+				B346FCD215D59FC400C3ED04 /* Views */,
+				B33D4B8215D2A1EE00A822A2 /* TableViews */,
+				B390FD0E15C9C5EE00A37E4B /* Data */,
+				B390FD0D15C9C5E000A37E4B /* UI */,
+				B390FCC815C96CC900A37E4B /* Instagram */,
+			);
+			path = instafriends;
+			sourceTree = "<group>";
+		};
+		B373AD3415C8574800EDD48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B373AD3C15C8574800EDD48C /* InstafriendsAppDelegate.h */,
+				B373AD3D15C8574800EDD48C /* InstafriendsAppDelegate.m */,
+				B373AD3515C8574800EDD48C /* instafriends-Info.plist */,
+				B373AD3615C8574800EDD48C /* InfoPlist.strings */,
+				B373AD3915C8574800EDD48C /* main.m */,
+				B373AD3B15C8574800EDD48C /* instafriends-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = instafriends;
+			sourceTree = "<group>";
+		};
+		B390FCC815C96CC900A37E4B /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				B373AD4A15C8583800EDD48C /* InstafriendsInstagramFetcher.h */,
+				B373AD4B15C8583800EDD48C /* InstafriendsInstagramFetcher.m */,
+				B33D4B8415D2AA9F00A822A2 /* InstafriendsAuthWebView.h */,
+				B33D4B8515D2AA9F00A822A2 /* InstafriendsAuthWebView.m */,
+			);
+			name = Instagram;
+			sourceTree = "<group>";
+		};
+		B390FCD615C9B83200A37E4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B390FCD715C9B83D00A37E4B /* Images */,
+			);
+			name = Resources;
+			path = instafriends;
+			sourceTree = "<group>";
+		};
+		B390FCD715C9B83D00A37E4B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B3AF814115DD560400B1A8C8 /* Default@2x.png */,
+				B3AF813F15DD55FF00B1A8C8 /* Default.png */,
+				B3AF813D15DD55D400B1A8C8 /* Icon@2x.png */,
+				B3AF813B15DD55CD00B1A8C8 /* Icon.png */,
+				B3AF812D15DD0CF500B1A8C8 /* close.png */,
+				B3AF812E15DD0CF500B1A8C8 /* close@2x.png */,
+				B366DB4215DD0980000BFF6D /* info.png */,
+				B366DB4415DD09A5000BFF6D /* info@2x.png */,
+				B359A37E15DC4D7C00FD3997 /* buttonBack.png */,
+				B359A37F15DC4D7C00FD3997 /* buttonBack@2x.png */,
+				B359A37A15DC4D4500FD3997 /* homeBackground.png */,
+				B359A37B15DC4D4500FD3997 /* homeBackground@2x.png */,
+				B359A37615DC399300FD3997 /* follow.png */,
+				B359A37715DC399300FD3997 /* follow@2x.png */,
+				B359A37215DC325E00FD3997 /* cellBackground.png */,
+				B359A37315DC325E00FD3997 /* cellBackground@2x.png */,
+				B359A36D15DC24A300FD3997 /* iconUpdate.png */,
+				B359A36E15DC24A300FD3997 /* iconUpdate@2x.png */,
+				B3C8021815DBE2AA00C912DB /* dashboardPhotoFrame.png */,
+				B3C8021915DBE2AA00C912DB /* dashboardPhotoFrame@2x.png */,
+				B375244A15DBD52300B608D7 /* dashboardMenu.png */,
+				B375244B15DBD52300B608D7 /* dashboardMenu@2x.png */,
+				B375244615DBD41B00B608D7 /* background.png */,
+				B375244715DBD41B00B608D7 /* background@2x.png */,
+				B375244115DBD36300B608D7 /* top.png */,
+				B375244215DBD36300B608D7 /* top@2x.png */,
+				B3FA8D9815DB04BF009D2EF6 /* buttonNormal.png */,
+				B3FA8D9915DB04C0009D2EF6 /* buttonNormal@2x.png */,
+				B3A8C1ED15D0307000E61B55 /* unfollow.png */,
+				B3A8C1EE15D0307000E61B55 /* unfollow@2x.png */,
+				B390FD0215C9C42100A37E4B /* placeholder.png */,
+				B390FD0315C9C42100A37E4B /* placeholder@2x.png */,
+				B359A38215DC854200FD3997 /* twitter.png */,
+				B359A38315DC854200FD3997 /* twitter@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B390FCE015C9BE9000A37E4B /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				B390FCE315C9BED100A37E4B /* SDImageCache.h */,
+				B390FCE415C9BED100A37E4B /* SDImageCache.m */,
+				B390FCE515C9BED100A37E4B /* SDImageCacheDelegate.h */,
+				B390FCE615C9BED100A37E4B /* SDWebImageCompat.h */,
+				B390FCE715C9BED100A37E4B /* SDWebImageDecoder.h */,
+				B390FCE815C9BED100A37E4B /* SDWebImageDecoder.m */,
+				B390FCE915C9BED100A37E4B /* SDWebImageDownloader.h */,
+				B390FCEA15C9BED100A37E4B /* SDWebImageDownloader.m */,
+				B390FCEB15C9BED100A37E4B /* SDWebImageDownloaderDelegate.h */,
+				B390FCEC15C9BED100A37E4B /* SDWebImageManager.h */,
+				B390FCED15C9BED100A37E4B /* SDWebImageManager.m */,
+				B390FCEE15C9BED100A37E4B /* SDWebImageManagerDelegate.h */,
+				B390FCEF15C9BED100A37E4B /* SDWebImagePrefetcher.h */,
+				B390FCF015C9BED100A37E4B /* SDWebImagePrefetcher.m */,
+				B390FCF115C9BED100A37E4B /* UIButton+WebCache.h */,
+				B390FCF215C9BED100A37E4B /* UIButton+WebCache.m */,
+				B390FCF315C9BED100A37E4B /* UIImageView+WebCache.h */,
+				B390FCF415C9BED100A37E4B /* UIImageView+WebCache.m */,
+			);
+			name = SDWebImage;
+			path = instafriends;
+			sourceTree = "<group>";
+		};
+		B390FD0115C9C40200A37E4B /* 3thParty */ = {
+			isa = PBXGroup;
+			children = (
+				B3A44D3B15D98A99002FF2B7 /* Reachability */,
+				B390FCE015C9BE9000A37E4B /* SDWebImage */,
+			);
+			name = 3thParty;
+			sourceTree = "<group>";
+		};
+		B390FD0D15C9C5E000A37E4B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B390FCD415C9B5FF00A37E4B /* InstafriendsInstagramerCell.xib */,
+				B373AD3F15C8574800EDD48C /* MainStoryboard.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B390FD0E15C9C5EE00A37E4B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B386F8C215D14C9100EDB2DC /* CoreDataTableViewController.h */,
+				B386F8C315D14C9100EDB2DC /* CoreDataTableViewController.m */,
+				B3E1AC1615C8923C007983AD /* Instafriends.xcdatamodeld */,
+				B34612D715D9C3F800889C61 /* Instagramer.h */,
+				B34612D815D9C3F800889C61 /* Instagramer.m */,
+				B3E1AC2A15C8ADE1007983AD /* Instagramer+DataBase.h */,
+				B3E1AC2B15C8ADE1007983AD /* Instagramer+DataBase.m */,
+				B33D4B8B15D2B2E900A822A2 /* InstafriendsUserDefaults.h */,
+				B33D4B8C15D2B2E900A822A2 /* InstafriendsUserDefaults.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		B3A44D3B15D98A99002FF2B7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B366DB3F15DD08AF000BFF6D /* Reachability.h */,
+				B366DB4015DD08AF000BFF6D /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		B3EAA7FA161DB8190084AC3E /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				B3B52C5D15D2F3B100BBFC43 /* InstafriendsDashbordViewController.h */,
+				B3B52C5E15D2F3B100BBFC43 /* InstafriendsDashbordViewController.m */,
+			);
+			name = Backup;
+			sourceTree = "<group>";
+		};
+		B3EAA7FB161DBC760084AC3E /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				B390FCCD15C9B49500A37E4B /* InstafriendsInstagramerCell.h */,
+				B390FCCE15C9B49500A37E4B /* InstafriendsInstagramerCell.m */,
+				B386F8C515D14DA200EDB2DC /* InstafriendsCoreTableViewController.h */,
+				B386F8C615D14DA200EDB2DC /* InstafriendsCoreTableViewController.m */,
+			);
+			name = Backup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B373AD2815C8574800EDD48C /* instafriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B373AD4715C8574800EDD48C /* Build configuration list for PBXNativeTarget "instafriends" */;
+			buildPhases = (
+				B373AD2515C8574800EDD48C /* Sources */,
+				B373AD2615C8574800EDD48C /* Frameworks */,
+				B373AD2715C8574800EDD48C /* Resources */,
+				B3AF813615DD538100B1A8C8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instafriends;
+			productName = instafriends;
+			productReference = B373AD2915C8574800EDD48C /* Instafriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B373AD2015C8574800EDD48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Instafriends;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Camargo";
+			};
+			buildConfigurationList = B373AD2315C8574800EDD48C /* Build configuration list for PBXProject "instafriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B373AD1E15C8574800EDD48C;
+			productRefGroup = B373AD2A15C8574800EDD48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B373AD2815C8574800EDD48C /* instafriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B373AD2715C8574800EDD48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B373AD3815C8574800EDD48C /* InfoPlist.strings in Resources */,
+				B373AD4115C8574800EDD48C /* MainStoryboard.storyboard in Resources */,
+				B390FCD515C9B5FF00A37E4B /* InstafriendsInstagramerCell.xib in Resources */,
+				B390FD0415C9C42100A37E4B /* placeholder.png in Resources */,
+				B390FD0515C9C42100A37E4B /* placeholder@2x.png in Resources */,
+				B3A8C1F115D0307000E61B55 /* unfollow.png in Resources */,
+				B3A8C1F215D0307000E61B55 /* unfollow@2x.png in Resources */,
+				B3FA8D9A15DB04C0009D2EF6 /* buttonNormal.png in Resources */,
+				B3FA8D9B15DB04C0009D2EF6 /* buttonNormal@2x.png in Resources */,
+				B375244315DBD36300B608D7 /* top.png in Resources */,
+				B375244415DBD36300B608D7 /* top@2x.png in Resources */,
+				B375244815DBD41B00B608D7 /* background.png in Resources */,
+				B375244915DBD41B00B608D7 /* background@2x.png in Resources */,
+				B375244C15DBD52300B608D7 /* dashboardMenu.png in Resources */,
+				B375244D15DBD52300B608D7 /* dashboardMenu@2x.png in Resources */,
+				B3C8021A15DBE2AA00C912DB /* dashboardPhotoFrame.png in Resources */,
+				B3C8021B15DBE2AA00C912DB /* dashboardPhotoFrame@2x.png in Resources */,
+				B359A36F15DC24A300FD3997 /* iconUpdate.png in Resources */,
+				B359A37015DC24A300FD3997 /* iconUpdate@2x.png in Resources */,
+				B359A37415DC325E00FD3997 /* cellBackground.png in Resources */,
+				B359A37515DC325E00FD3997 /* cellBackground@2x.png in Resources */,
+				B359A37815DC399300FD3997 /* follow.png in Resources */,
+				B359A37915DC399300FD3997 /* follow@2x.png in Resources */,
+				B359A37C15DC4D4500FD3997 /* homeBackground.png in Resources */,
+				B359A37D15DC4D4500FD3997 /* homeBackground@2x.png in Resources */,
+				B359A38015DC4D7C00FD3997 /* buttonBack.png in Resources */,
+				B359A38115DC4D7C00FD3997 /* buttonBack@2x.png in Resources */,
+				B359A38415DC854200FD3997 /* twitter.png in Resources */,
+				B359A38515DC854200FD3997 /* twitter@2x.png in Resources */,
+				B366DB4315DD0980000BFF6D /* info.png in Resources */,
+				B366DB4515DD09A5000BFF6D /* info@2x.png in Resources */,
+				B3AF812F15DD0CF500B1A8C8 /* close.png in Resources */,
+				B3AF813015DD0CF500B1A8C8 /* close@2x.png in Resources */,
+				B3AF813C15DD55CE00B1A8C8 /* Icon.png in Resources */,
+				B3AF813E15DD55D400B1A8C8 /* Icon@2x.png in Resources */,
+				B3061EC615DD9CE300D1D4FC /* Default@2x.png in Resources */,
+				B3061EC715DD9CE600D1D4FC /* Default.png in Resources */,
+				B3F8FB22161E7AAB007C7D0D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3AF813615DD538100B1A8C8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run e08104df2a49cfb068b415e733b4933ae14a56b0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B373AD2515C8574800EDD48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B373AD3A15C8574800EDD48C /* main.m in Sources */,
+				B366DB4115DD08C4000BFF6D /* Reachability.m in Sources */,
+				B366DB3E15DD0811000BFF6D /* IsThereInternet.m in Sources */,
+				B386F8CC15D1500A00EDB2DC /* CoreDataTableViewController.m in Sources */,
+				B390FD0615C9C44000A37E4B /* SDImageCache.m in Sources */,
+				B390FD0715C9C44000A37E4B /* SDWebImageDecoder.m in Sources */,
+				B390FD0815C9C44000A37E4B /* SDWebImageDownloader.m in Sources */,
+				B390FD0915C9C44000A37E4B /* SDWebImageManager.m in Sources */,
+				B390FD0A15C9C44000A37E4B /* SDWebImagePrefetcher.m in Sources */,
+				B390FD0B15C9C44000A37E4B /* UIButton+WebCache.m in Sources */,
+				B390FD0C15C9C44000A37E4B /* UIImageView+WebCache.m in Sources */,
+				B373AD3E15C8574800EDD48C /* InstafriendsAppDelegate.m in Sources */,
+				B373AD4C15C8583800EDD48C /* InstafriendsInstagramFetcher.m in Sources */,
+				B3E1AC1815C8923C007983AD /* Instafriends.xcdatamodeld in Sources */,
+				B3E1AC2C15C8ADE1007983AD /* Instagramer+DataBase.m in Sources */,
+				B3E1AC3115C946BB007983AD /* InstafriendsBrainViewController.m in Sources */,
+				B3E1AC3415C9474C007983AD /* InstafriendsIntroViewController.m in Sources */,
+				B390FCCF15C9B49500A37E4B /* InstafriendsInstagramerCell.m in Sources */,
+				B386F8C715D14DA200EDB2DC /* InstafriendsCoreTableViewController.m in Sources */,
+				B33D4B8615D2AAA000A822A2 /* InstafriendsAuthWebView.m in Sources */,
+				B33D4B8D15D2B2E900A822A2 /* InstafriendsUserDefaults.m in Sources */,
+				B3B52C5F15D2F3B100BBFC43 /* InstafriendsDashbordViewController.m in Sources */,
+				B346FCD115D5962300C3ED04 /* InstafriendsMoreViewController.m in Sources */,
+				B34612D915D9C3F800889C61 /* Instagramer.m in Sources */,
+				B3FA8D9E15DB05BD009D2EF6 /* InstafriendsNormalButtonSetup.m in Sources */,
+				B3EAA7F8161DB80A0084AC3E /* InstafriendsDashBoardViewControllerNoDatabase.m in Sources */,
+				B3EAA7FE161DBCAB0084AC3E /* InstafriendInstagramersTableViewController.m in Sources */,
+				B34F432A161DD5ED0023BB02 /* InstafriendsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B373AD3615C8574800EDD48C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B373AD3715C8574800EDD48C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B373AD3F15C8574800EDD48C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B373AD4015C8574800EDD48C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B373AD4515C8574800EDD48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B373AD4615C8574800EDD48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B373AD4815C8574800EDD48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Camargo (R6A756934D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Camargo (R6A756934D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instafriends/instafriends-Prefix.pch";
+				INFOPLIST_FILE = "instafriends/instafriends-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Instafriends;
+				PROVISIONING_PROFILE = "6A4B8CFB-4872-4254-9617-5627CF691341";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6A4B8CFB-4872-4254-9617-5627CF691341";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B373AD4915C8574800EDD48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instafriends/instafriends-Prefix.pch";
+				INFOPLIST_FILE = "instafriends/instafriends-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Instafriends;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B373AD2315C8574800EDD48C /* Build configuration list for PBXProject "instafriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B373AD4515C8574800EDD48C /* Debug */,
+				B373AD4615C8574800EDD48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B373AD4715C8574800EDD48C /* Build configuration list for PBXNativeTarget "instafriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B373AD4815C8574800EDD48C /* Debug */,
+				B373AD4915C8574800EDD48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3E1AC1615C8923C007983AD /* Instafriends.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3E1AC1715C8923C007983AD /* Instafriends.xcdatamodel */,
+			);
+			currentVersion = B3E1AC1715C8923C007983AD /* Instafriends.xcdatamodel */;
+			path = Instafriends.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B373AD2015C8574800EDD48C /* Project object */;
+}
